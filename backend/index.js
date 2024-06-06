@@ -9,7 +9,7 @@ app.use(express.json());
 app.use(bodyParser.json());
 app.use(cors());
 
-mongoose.connect("mongodb+srv://patidarhimank005:oK91m6ehsk7gPu3Y@cluster0.kotwjr2.mongodb.net/")
+mongoose.connect("")
   .then(() => console.log("Mongoose is connected..."))
   .catch((err) => console.log(err));
 
